@@ -1,0 +1,29 @@
+/* banner style */
+.banner-container {
+    display: flex;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 200px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-description {
+    color: #444343;
+}
+
+.banner-btn {
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #F15B22;
+}
