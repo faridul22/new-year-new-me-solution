@@ -32,14 +32,16 @@
 }
 
 /* my failures section style */
+section {
+    margin-bottom: 130px;
+}
+
 .failures-section {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 85px;
-    margin: 130px 175px 130px 100px;
-    /* padding-left: 100px;
-    padding-right: 150px; */
+    margin: 0 175px 0 100px;
 }
 
 .failures-section-title {
@@ -54,7 +56,6 @@
 .failures-section-title {
     font-weight: 7000px;
     font-size: 40px;
-    color: #151414;
 }
 
 .failure-description {
@@ -67,4 +68,35 @@
 
 .tick-icon {
     color: #16D887;
+}
+
+/* my plans style */
+.plan-section-title {
+    text-align: center;
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+
+.all-plan-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 230px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.plan-status {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 0;
 }
