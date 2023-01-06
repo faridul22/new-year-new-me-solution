@@ -4,8 +4,7 @@
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 100px 200px;
-    margin-bottom: 130px;
+    padding: 100px 250px;
 }
 
 .half-width {
@@ -99,4 +98,34 @@ section {
     font-size: 25px;
     color: #737272;
     margin-top: 0;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    text-align: start;
+    gap: 330px;
+    padding: 130px 230px;
+    background-color: #151414;
+    color: #F8F8F8;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    margin-bottom: 24px;
+
+}
+
+footer input {
+    color: azure;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+    /* margin: ; */
 }
