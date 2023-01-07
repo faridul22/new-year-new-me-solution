@@ -11,9 +11,8 @@ header {
     display: flex;
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 700px;
-    align-items: center;
+    background-size: cover;
+    padding: 100px 250px;
 }
 
 .half-width {
@@ -162,7 +161,7 @@ textarea {
 /* positive mindset style*/
 .positive-mindset {
     padding: 40px 60px;
-    margin: 0 230px;
+    margin-left: 230px;
     background-image: url('../images/gradient3.png'), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: contain;
