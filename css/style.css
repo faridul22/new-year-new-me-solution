@@ -1,4 +1,4 @@
-/* banner style */
+/* common style */
 body {
     margin: 0;
 }
@@ -7,6 +7,11 @@ header {
     margin-bottom: 130px;
 }
 
+section {
+    margin-bottom: 130px;
+}
+
+/* banner style */
 .banner-container {
     display: flex;
     background-image: url('../images/banner/banner1.png');
@@ -39,9 +44,6 @@ header {
 }
 
 /* my failures section style */
-section {
-    margin-bottom: 130px;
-}
 
 .failures-section {
     display: flex;
@@ -77,7 +79,7 @@ section {
     color: #16D887;
 }
 
-/* my plans style */
+/* my plans section style */
 .plan-section-title {
     text-align: center;
     font-weight: 700px;
@@ -108,7 +110,7 @@ section {
     margin-top: 0;
 }
 
-/* daily activities style */
+/* contact section style */
 .contact-section {
     background-color: #f4eae3;
     border-radius: 10px;
@@ -158,7 +160,7 @@ textarea {
 }
 
 
-/* positive mindset style*/
+/* positive mindset section style*/
 .positive-mindset {
     padding: 40px 60px;
     width: 60%;
