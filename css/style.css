@@ -12,7 +12,8 @@ header {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 100px 250px;
+    height: 700px;
+    align-items: center;
 }
 
 .half-width {
