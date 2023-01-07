@@ -1,4 +1,12 @@
 /* banner style */
+body {
+    margin: 0;
+}
+
+header {
+    margin-bottom: 130px;
+}
+
 .banner-container {
     display: flex;
     background-image: url('../images/banner/banner1.png');
@@ -100,6 +108,23 @@ section {
     margin-top: 0;
 }
 
+/* positive mindset style*/
+.positive-mindset {
+    padding: 40px 60px;
+    margin: 0 230px;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+}
+
+.positive-mindset h5 {
+    margin: 0;
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 40px;
+}
+
 /* footer style */
 footer {
     display: flex;
@@ -142,7 +167,8 @@ footer input {
     font-size: 20px;
     padding: 20px 30px;
     margin-top: 15px;
+    border: none;
+    border-radius: 8px;
     color: #F15B22;
     background: #FFFFFF;
-    border-radius: 8px;
 }
